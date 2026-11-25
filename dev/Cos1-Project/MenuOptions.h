@@ -13,6 +13,9 @@ namespace Menu
 	void ClearScreen();
 
 	void Pause();
+
+	//TODO method/function unknown where needed
+	//void LoadPrologue();
 }
 
 void Menu::DisplayMenu()
@@ -61,3 +64,10 @@ void Menu::Pause()
 	std::string dummy;
 	std::getline(std::cin, dummy);
 }
+
+//TODO method/function unknown where needed
+
+//void Menu::LoadPrologue()
+//{
+//	std::cout << ""
+//}

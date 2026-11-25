@@ -23,12 +23,17 @@ int main()
 
         switch (choice)
         {
+            //Start The Game initializing intro before starting chapter 1.
         case 1: std::cout << "Choice 1 Was Selected\n";
+            //Menu::LoadPrologue();
             break;
+
         case 2:  std::cout << "Choice 2 Was Selected\n";
             break;
+
         case 3: std::cout << "Choice 3 Was Selected\n";
             break;
+
         case 4: std::cout << "Choice 4 Was Selected\n";
             gameRunning = false;
             break;
