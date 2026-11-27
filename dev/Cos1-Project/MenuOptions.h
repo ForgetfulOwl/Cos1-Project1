@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 #include <iostream>
-
+#include "Story.h"
 
 namespace Menu
 {
@@ -13,6 +13,8 @@ namespace Menu
 	void ClearScreen();
 
 	void Pause();
+
+	void StartGame();
 
 	//TODO method/function unknown where needed
 	//void LoadPrologue();
@@ -65,6 +67,11 @@ void Menu::Pause()
 	std::getline(std::cin, dummy);
 }
 
+void Menu::StartGame()
+{
+	Story::LoadPrologue();
+	Menu::Pause();
+}
 //TODO method/function unknown where needed
 
 //void Menu::LoadPrologue()

@@ -1,5 +1,7 @@
 #include "MenuOptions.h"
 #include <iostream>
+#include "Story.h"
+
 
 int main()
 {
@@ -24,8 +26,8 @@ int main()
         switch (choice)
         {
             //Start The Game initializing intro before starting chapter 1.
-        case 1: std::cout << "Choice 1 Was Selected\n";
-            //Menu::LoadPrologue();
+        case 1: std::cout << "\nChoice 1 Was Selected\n";
+            Menu::StartGame();
             break;
 
         case 2:  std::cout << "Choice 2 Was Selected\n";
