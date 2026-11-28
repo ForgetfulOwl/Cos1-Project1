@@ -140,11 +140,17 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DayCycle.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MenuOptions.cpp" />
+    <ClCompile Include="Story.cpp" />
+    <ClCompile Include="TaskList.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DayCycle.h" />
     <ClInclude Include="MenuOptions.h" />
     <ClInclude Include="Story.h" />
+    <ClInclude Include="TaskList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
